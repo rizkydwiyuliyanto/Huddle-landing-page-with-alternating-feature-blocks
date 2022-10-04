@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./assets/style/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <nav id="nav" class="position-fixed col-12 d-flex align-items-center">
+    <div class="mycontainer d-flex col-12 align-items-center justify-content-between">
+      <a class="col-lg-2 col-4">
+        <img id="logo" src="./images/logo.svg" width="100%">
+      </a>
+      <button class="button button-1 fs-small rounded-5 fw-bold py-1 py-lg-2">
+        Try It Free
+      </button>
+    </div>
+  </nav>
+
+<section class="background-image">
+  <div class="mycontainer vh-100 align-items-center justify-content-center  justify-content-lg-between my-auto d-flex flex-lg-row flex-column">
+    <div class="d-flex flex-column align-items-center d-lg-block col-lg-5 mb-5 mb-lg-0">
+      <h2 class="fs-large heading text-center text-lg-start  fw-bold lh-base">
+        Build The Community Your Fans Will Love
+      </h2>
+
+      <p class="fs-normal lh-base my-xxl-5 my-lg-4 text-center text-lg-start">
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+        Create connections with your users as you engage in genuine discussion. 
+      </p>
+      <button class="button fs-small button-2 rounded-5 py-2 py-lg-3">
+        Get Started For Free
+      </button>
+    </div>
+    <div class="col-lg-6 col-12">
+      <img src="./images/illustration-mockups.svg" width="100%">
+    </div>
+  </div>
+</section>
+
+<section class="mt-5">
+  <div class="mycontainer d-flex flex-column">
+
+    <div class="py-2 d-flex flex-column flex-lg-row justify-content-between align-items-center py-5 box-shadow mb-5 rounded-4 pe-lg-4">
+      <div class="order-2 mt-4 mt-lg-0 order-lg-0 col-lg-6 col-11 col-md-8 text-lg-start text-center me-lg-3 d-flex flex-column align-items-center">
+        <h3 class="fs-medium fw-semibold col-12 col-lg-9 mb-xl-3">
+          Grow Together
+        </h3>
+        <p class="fs-normal col-lg-9 col-12 lh-base">
+          Generate meaningful discussions with your audience and build a strong, loyal community. 
+          Think of the insightful conversations you miss out on with a feedback form. 
+        </p>
+      </div>
+      <div class="col-lg-5 col-9 order-1 order-lg-0">
+        <img src="./images/illustration-grow-together.svg" width="100%">
+      </div>
+    </div>
+  
+      <div class="py-2 d-flex flex-column flex-lg-row justify-content-between align-items-center py-5 box-shadow mb-5 rounded-4 pe-lg-4">
+        <div class="col-lg-6 col-9 me-lg-3 d-flex flex-column align-items-center">
+          <img class="col-12 col-lg-9" src="./images/illustration-flowing-conversation.svg" width="100%">
+        </div>
+        <div class="col-lg-5 col-11 col-md-8 text-center text-lg-start mt-4 mt-lg-0">
+          <h3 class="fs-medium fw-semibold mb-xl-3">
+            Flowing Conversations
+          </h3>
+          <p class="fs-normal lh-base">
+            You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+            have just-in-time loading for a more natural flow.
+          </p>
+        </div>
+      </div>
+
+      <div class="py-2 d-flex flex-column flex-lg-row justify-content-between align-items-center py-5 box-shadow mb-5 rounded-4 pe-lg-4">
+        <div class="order-2 mt-4 mt-lg-0 order-lg-0 col-lg-6 col-11 col-md-8 text-lg-start text-center me-lg-3 d-flex flex-column align-items-center">
+          <h3 class="fs-medium fw-semibold col-12 col-lg-9 mb-xl-3">
+            Your Users
+          </h3>
+          <p class="fs-normal col-lg-9 col-md-12 lh-base">
+            It takes no time at all to integrate Huddle with your app's authentication solution. 
+            This means, once signed in to your app, your users can start chatting immediately.
+          </p>
+        </div>
+        <div class="col-lg-5 col-9 order-1 order-lg-0">
+          <img src="./images/illustration-your-users.svg" width="100%">
+        </div>
+      </div>
+
+  </div>
+</section>
+
+<footer >
+  <div class="mycontainer">
+    <div style="top: 100px; z-index: 1;" class="col-lg-7 box-shadow col-12 bg-light px-2 py-5 mx-auto rounded-4 d-flex position-relative flex-column align-items-center">
+      <h2 class="fs-large fw-semibold mb-3 mb-lg-5">
+        Ready To Build Your Community?
+      </h2>
+      <button class="button button-2 rounded-5 fs-small py-2 py-lg-3">
+        Get Started For Free
+      </button>
+    </div>
+  <div class="footer-inner full-bleed  d-flex flex-column justify-content-end">
+    <div class="col-lg-2 col-6 col-md-4 mb-lg-4">
+      <img src="./images/logo2.svg" width="100%">
+    </div>
+    <div class="flex-lg-row h-auto mb-lg-4 mb-xxl-0 flex-column d-flex  fs-normal justify-content-between">
+      <div class="mb-5 mb-lg-0  col-lg-4 d-flex flex-column col-12 col-md-9 footer-item mt-4 mt-lg-0">
+        <div class="d-flex align-items-start">
+        <img class="me-3 pt-2" src="./images/icon-location.svg" width="30">
+          <span class="col-10">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua
+          </span>
+        </div>
+        <div class="d-flex align-items-center">
+          <img class="me-3  pt-2" src="./images/icon-phone.svg" width="30">
+          <span class="my-lg-5 my-4 col-10">
+            +1-543-123-4567
+          </span>
+        </div>
+        <div class="d-flex align-items-start">
+          <img class="me-3 pt-2" src="./images/icon-email.svg" width="30">
+          <span class="col-10">
+            example@huddle.com
+          </span>
+        </div>
+      </div>
+    <div  class="d-flex mb-lg-0 mb-5 col-9 col-lg-3 flex-column flex-lg-row footer-item justify-content-start justify-content-lg-between">
+      <ul class="p-0">
+        <li>About Us</li>
+        <li>What We Do</li>
+        <li>FAQ</li>
+      </ul>
+      <ul class="p-0">
+        <li>Career</li>
+        <li>Blog</li>
+        <li>Contact Us</li>
+      </ul>
+    </div>
+    <div class="col-lg-4 ps-0 ps-lg-4 col-12 footer-item fs-small d-flex flex-column justify-content-between">
+      <div class="d-flex mb-3 mb-lg-0 justify-content-center justify-content-lg-between col-lg-6 col-xxl-5 col-12">
+        <div style="width: 45px; height: 45px; border: 1.5px solid white;" class="rounded-5 social-media d-flex justify-content-center align-items-center">
+          <img src="./images/facebook.png" width="20">
+        </div>
+        <div style="width: 45px; height: 45px; border: 1.5px solid white;" class="rounded-5 social-media mx-lg-0 mx-5 d-flex justify-content-center align-items-center">
+          <img src="./images/twitter.png" width="20">
+        </div>
+        <div style="width: 45px; height: 45px; border: 1.5px solid white;" class="rounded-5 social-media d-flex justify-content-center align-items-center">
+          <img src="./images/instagram-white.png" width="20">
+        </div>
+      </div>
+      <span class="text-center text-lg-start">
+        &copy; Copyright 2018 Huddle. All rights reserved.
+      </span>
+    </div>
+    </div>
+  </div>
+  </div>
+</footer>
+
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script>
+    const socialMedia = document.querySelectorAll(".social-media");
+    const logo = [
+      {
+        one: "./images/facebook-pink.png",
+        two: "./images/facebook.png"
+      },
+      {
+        one: "./images/twitter-pink.png",
+        two: "./images/twitter.png"
+      },
+      {
+        one: "./images/instagram-pink.png",
+        two: "./images/instagram-white.png"
+      }
+    ]
+    socialMedia.forEach((x, idx) => {
+      x.onmouseenter = () =>{
+        console.log(x.childNodes[1])
+        x.style.border = "1.5px solid hsl(322, 100%, 66%)"
+        x.childNodes[1].src = logo[idx].one;
+      }
+      x.onmouseleave = () => {
+        x.style.border = "1.5px solid white"
+        x.childNodes[1].src = logo[idx].two;
+      }
+    })
+    const mousemove = (x) => {
+      console.log(x)
+    }
+    window.onscroll = () => {
+      let nav = document.getElementById("nav");
+      let logo = document.getElementById("logo")
+      let y = window.scrollY;
+      if (y > nav.offsetHeight) {
+        nav.style.backgroundColor = "hsl(192, 100%, 9%)";
+        logo.src = "./images/logo2.svg"
+      }else {
+        nav.style.background="none";
+        logo.src = "./images/logo.svg"
+      }
+    }
+
+  </script>
+</body>
+</html>
